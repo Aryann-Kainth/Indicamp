@@ -9,6 +9,8 @@ Indicamp is a node.js app with full CRUD(Create, Read, Update, Delete) functiona
 
 ![Screenshot 2021-10-17 at 11 43 01 PM](https://user-images.githubusercontent.com/86730045/137639685-b5f6ca60-aed5-4a07-a522-ded1680b7a17.png)
 
+
+
 ![Screenshot 2021-10-17 at 11 43 52 PM](https://user-images.githubusercontent.com/86730045/137639713-32f5e676-88f3-42d3-ac15-7ab0e143197a.png)
 
 
@@ -18,11 +20,13 @@ Indicamp is a node.js app with full CRUD(Create, Read, Update, Delete) functiona
 Add multiple images on an interactive carousel.
 
 Just type in your location and your Campground  will show up on a map! This is done via the mapbox API which uses geocoding.
+
+
 ![Screenshot 2021-10-17 at 11 45 49 PM](https://user-images.githubusercontent.com/86730045/137639785-11c1f8ca-4a96-4e9f-86ed-3a09abd4182a.png)
 
 I used Starability CSS files to get a star based review .
 
-![Screenshot 2021-10-17 at 11 38 06 PM](https://user-images.githubusercontent.com/86730045/137639530-0974fe4e-bc4c-4520-8eb1-6d0bdb8aab8b.png)
+
 
 The homepage has a cluster map with all the Campgrounds  which makes finding Campgrounds near your location easier
 
