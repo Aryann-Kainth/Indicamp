@@ -6,16 +6,19 @@ A website to find campgrounds all over the globe and leave a review and also pos
 
 Indicamp is a node.js app with full CRUD(Create, Read, Update, Delete) functionality for Campgrounds  and their reviews.Indicamp is a completely responsive website
 
-![Screenshot 2021-10-17 at 11 34 19 PM](https://user-images.githubusercontent.com/86730045/137639399-e8dc3567-e574-43c5-8ddc-d17bfd2a3837.png)
+
+![Screenshot 2021-10-17 at 11 43 01 PM](https://user-images.githubusercontent.com/86730045/137639685-b5f6ca60-aed5-4a07-a522-ded1680b7a17.png)
+
+![Screenshot 2021-10-17 at 11 43 52 PM](https://user-images.githubusercontent.com/86730045/137639713-32f5e676-88f3-42d3-ac15-7ab0e143197a.png)
 
 
-![Screenshot 2021-10-17 at 11 35 03 PM](https://user-images.githubusercontent.com/86730045/137639464-316ba628-3132-4078-9af4-d48968c14900.png)
+![Screenshot 2021-10-17 at 11 44 58 PM](https://user-images.githubusercontent.com/86730045/137639743-1cd06e4e-45bb-498c-b57a-5c7cd11c532d.png)
 
-![Screenshot 2021-10-17 at 11 35 18 PM](https://user-images.githubusercontent.com/86730045/137639465-b7921d4e-fab9-4142-ab33-02dbc7e5a994.png)
 
 Add multiple images on an interactive carousel.
 
 Just type in your location and your Campground  will show up on a map! This is done via the mapbox API which uses geocoding.
+![Screenshot 2021-10-17 at 11 45 49 PM](https://user-images.githubusercontent.com/86730045/137639785-11c1f8ca-4a96-4e9f-86ed-3a09abd4182a.png)
 
 I used Starability CSS files to get a star based review .
 
