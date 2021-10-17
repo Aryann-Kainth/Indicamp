@@ -1,0 +1,70 @@
+<% layout('layouts/boilerplate') %> 
+    <h1 class="text-center">Edit CampGround</h1>
+    <div class="row">
+        <div class="text-left">
+            <div class="col-6 offset-3">
+    <form action="/campgrounds/<%=camp._id%>?_method=PUT" method="POST" class="needs-validation" novalidate enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+                <input required type="text" class=" form-control " id="name" name="campground[name]" value="<%= camp.name %> ">
+            
+        </div>
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+                <input required type="text" class="form-control" id="location" name="campground[location]" value="<%= camp.location %> ">
+
+            
+        </div>
+        <div class="mb-3">
+            <label for="price" class="form-label">Price (in INR)</label>
+                <input required type="text" class="form-control" id="price" name="campground[price]"value="<%= camp.price %> ">
+
+            
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Add Images</label>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile02" name="image" multiple>
+              <label class="input-group-text" for="inputGroupFile02">Upload</label>
+            </div>
+
+            
+        </div>
+        <div class="mb-3">
+          <% camp.images.forEach((img,i)=>{ %> 
+            <img src="<%= img.thumbnail %> " class="image-thumbnail">
+            <div class="form-check-inline">
+              <input type="checkbox" id="image-<%=i%> " name="deleteImages[]" value="<%= img.filename %>">
+              <label for="image-<%=i%> ">Delete</label>
+            </div>
+            
+            <% }) %>  
+        </div>
+        <button class="btn btn-success">Make Changes</button>
+     </form>
+     </div>
+     </div>
+     </div>
+     
+     <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+    </script>
