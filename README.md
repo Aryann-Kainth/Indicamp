@@ -35,14 +35,14 @@ The homepage has a cluster map with all the Campgrounds  which makes finding Cam
 
 ## Tech Stack 
 
-HTML,
-CSS,
-Bootstrap,
-JavaScript,
-Express,
-Node.js,
-MongoDB,
-Passport.js.
+* HTML,
+* CSS,
+* Bootstrap,
+* JavaScript,
+* Express,
+* Node.js,
+* MongoDB,
+* Passport.js.
 
 ## Url 
 
